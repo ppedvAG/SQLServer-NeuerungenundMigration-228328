@@ -1,10 +1,10 @@
---WAITFOR TIME '18:47:00';
+
 USE OldStyle;
 
 
 --Test2
-use oldstyle;
-drop table if exists test1;
+
+drop table if exists test1;--create or alter
 GO
 create table test1(id int, spx char(50), nummer int, Datum datetime);
 GO
@@ -14,7 +14,7 @@ GO
 Begin tran
 
 declare @i as int= 1
-while @i< 100000
+while @i< 400000
 	begin
 		insert into test1 
 		select @i,'XY', @i, GETDATE()
@@ -24,5 +24,13 @@ while @i< 100000
 update test1 set nummer = 100000, Datum= GETDATE()
 
 delete from test1
+
+rollback
+
+
+
+
+
+
 --erst später
 rollback

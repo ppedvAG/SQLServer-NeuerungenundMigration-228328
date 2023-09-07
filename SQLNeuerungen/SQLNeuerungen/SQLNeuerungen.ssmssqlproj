@@ -2,7 +2,20 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLNeuerungen">
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
+          <Created>2023-09-07T11:54:15.1850603+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
       <Items>
@@ -19,28 +32,46 @@
           <FullPath>02_Setup.sql</FullPath>
         </FileNode>
         <FileNode Name="03a_ADR_SETUP.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03a_ADR_SETUP.sql</FullPath>
         </FileNode>
         <FileNode Name="03b_ADR_Fill1.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03b_ADR_Fill1.sql</FullPath>
         </FileNode>
         <FileNode Name="03b_ADR_Fill2.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>03b_ADR_Fill2.sql</FullPath>
         </FileNode>
         <FileNode Name="20_MAXDOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Columnstore_realtime_inMemory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Columnstore_realtime_inMemory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>20_MAXDOP.sql</FullPath>
+          <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_spieltabelle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_spieltabelle.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
