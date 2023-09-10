@@ -4,7 +4,7 @@ SELECT
    DATE_BUCKET(day, 1, @date, @origin) AS "1 day",
    DATE_BUCKET(day, 2, @date, @origin) AS "2 days",
    DATE_BUCKET(day, 3, @date, @origin) AS "3 days",
-   DATE_BUCKET(QUARTER, 2, @date, @origin) AS "4 days";
+   DATE_BUCKET(QUARTER, 2, @date, @origin) AS "Quartal";
 
 SELECT value
 FROM GENERATE_SERIES(1, 10);

@@ -61,41 +61,101 @@
           <AssociatedConnUserName />
           <FullPath>03b_ADR_Fill2.sql</FullPath>
         </FileNode>
+        <FileNode Name="04_MAXDOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_MAXDOP.sql</FullPath>
+        </FileNode>
         <FileNode Name="05_AlwaysEnc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_AlwaysEnc.sql</FullPath>
         </FileNode>
-        <FileNode Name="20_MAXDOP.sql">
+        <FileNode Name="06_Ledger.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>20_MAXDOP.sql</FullPath>
+          <FullPath>06_Ledger.sql</FullPath>
         </FileNode>
-        <FileNode Name="50_TemporalTables_1_Aktivieren.sql">
+        <FileNode Name="06_TemporalTables_1_Aktivieren.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>50_TemporalTables_1_Aktivieren.sql</FullPath>
+          <FullPath>06_TemporalTables_1_Aktivieren.sql</FullPath>
         </FileNode>
-        <FileNode Name="50_TemporalTables_2_Demo.sql">
+        <FileNode Name="06_TemporalTables_2_Demo.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>50_TemporalTables_2_Demo.sql</FullPath>
+          <FullPath>06_TemporalTables_2_Demo.sql</FullPath>
         </FileNode>
-        <FileNode Name="Columnstore_realtime_inMemory.sql">
+        <FileNode Name="07_Columnstore_realtime_inMemory.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Columnstore_realtime_inMemory.sql</FullPath>
+          <FullPath>07_Columnstore_realtime_inMemory.sql</FullPath>
         </FileNode>
-        <FileNode Name="Ledger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+        <FileNode Name="10_IX_Online_Pause_Resume.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>Ledger.sql</FullPath>
+          <FullPath>10_IX_Online_Pause_Resume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_1_DB_enlarge.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_1_DB_enlarge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_1_WWI_ExplodingTables.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_1_WWI_ExplodingTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_2_Count_Distinct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_2_Count_Distinct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_3_Batch_Mode_Adaptive_Join.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_3_Batch_Mode_Adaptive_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_4_Memory_Grant.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_4_Memory_Grant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_5_BatchMode_Rowstore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_5_BatchMode_Rowstore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_6_Interleave.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_6_Interleave.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_7_UDF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_7_UDF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_8_Table_Variable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_8_Table_Variable.sql</FullPath>
         </FileNode>
         <FileNode Name="Sec_1_RowLevelSec.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -108,6 +168,48 @@
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Sec_2_Dynamic Data Masking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_DateBucket_GenerateSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_DateBucket_GenerateSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Graph_Shortest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Graph_Shortest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Greatest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Greatest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_QueryStore_Hints.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_QueryStore_Hints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Snapshotisolation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Snapshotisolation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_STRING_AGG_SPLIT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_STRING_AGG_SPLIT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Window.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Window.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Database_SnapshotBackup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>

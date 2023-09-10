@@ -31,11 +31,15 @@ CREATE TABLE City (
   stateName VARCHAR(100)
 ) AS NODE;
 
+select * from city
+
 -- Create EDGE tables.
 CREATE TABLE likes (rating INTEGER) AS EDGE;
 CREATE TABLE friendsOf AS EDGE;
 CREATE TABLE livesIn AS EDGE;
 CREATE TABLE locatedIn AS EDGE;
+
+select * from likes
 
 -- Insert data into node tables. Inserting into a node table is same as inserting into a regular table
 INSERT INTO Persons (ID, name)
@@ -54,6 +58,8 @@ INSERT INTO City (ID, name, stateName)
     VALUES (1,'Bellevue','WA')
          , (2,'Seattle','WA')
          , (3,'Redmond','WA');
+
+		 select * from persons
 
 -- Insert into edge table. While inserting into an edge table,
 -- you need to provide the $node_id from $from_id and $to_id columns.
@@ -88,14 +94,15 @@ INSERT INTO friendsOf
          , ((SELECT $NODE_ID FROM Persons WHERE ID = 5), (SELECT $NODE_ID FROM Persons WHERE ID = 4));
 
 
+
 -- Find Restaurants that John likes
-SELECT Restaurant.name
-FROM Persons, likes, Restaurant
-WHERE MATCH (Persons-(likes)->Restaurant)
-AND Persons.name = 'John';
+SELECT p1.name, p2.name
+FROM Persons p1 , likes, persons p2
+WHERE MATCH (p1-(likes)->p2)
+AND p1.name = 'John';
 
 -- Find Restaurants that John's friends like
-SELECT Restaurant.name
+SELECT Restaurant.name,likes.rating
 FROM Persons person1, Persons person2, likes, friendsOf, Restaurant
 WHERE MATCH(person1-(friendsOf)->person2-(likes)->Restaurant)
 AND person1.name='John';
@@ -240,7 +247,7 @@ FROM (
        Person AS Person1,
        friendOf FOR PATH  AS fo,
        Person	FOR PATH  AS Person2
-   WHERE MATCH(SHORTEST_PATH(Person1(-(fo)->Person2)+))
+   WHERE MATCH(Person1-(fo)->Person2)
    AND Person1.name = 'Daniel'
 ) AS Q
 WHERE Q.LastNode = 'Hans'
